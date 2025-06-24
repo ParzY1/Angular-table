@@ -1,1 +1,1 @@
-# Angular-table
+# Angular Table
