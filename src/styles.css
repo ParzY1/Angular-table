@@ -9,11 +9,15 @@ body {
   border-radius: 8px;
 }
 .mat-elevation-z8 {
-  border-radius: 12px;
+  border-radius: 12px;;
 }
 
 table {
   background: white;
   border-radius: 12px;
   box-shadow: 0 4px 24px #0001;
+}
+.mat-mdc-header-cell {
+  background-color: #3f4142a8 !important;
+  
 }

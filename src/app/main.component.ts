@@ -65,7 +65,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
         </mat-form-field>
 
         <table mat-table [dataSource]="filteredData()" class="mat-elevation-z8" style="width: 100%; background: #fff; border-radius: 12px;">
-          <ng-container matColumnDef="position">
+          <ng-container matColumnDef="position" class="mat-column">
             <th mat-header-cell *matHeaderCellDef> No. </th>
             <td mat-cell *matCellDef="let element"> {{element.position}} </td>
           </ng-container>
